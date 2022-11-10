@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-boxs;
+}
+
+
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor__paleta{
+    height: 50rem;
+    width: 50rem;
+    background-color: violet;
+    background: url(./paleta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor__paleta .color{
+    height: 7.5rem;
+    width: 7.5rem;
+    background-color: beige;
+    border-radius: 50%;
+    transition: 0.2s ease all;
+}
+.contenedor__paleta .color:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.contenedor__paleta .color1{
+    background:linear-gradient(to right, blue , rgb(134, 134, 255));
+    position: relative;
+    bottom: 1.6rem;
+    left: 1rem;
+    transition: 1s all ease;
+}
+.contenedor__paleta .color1:hover{
+    transform: rotate(360deg) scale(1.2);
+    cursor: pointer;
+}
+
+
+.contenedor__paleta .color2{
+    background-color: red;
+    position: relative;
+    bottom: 8.5rem;
+    left: 1rem;
+}
+.contenedor__paleta .color3{
+    background-color: rgb(98, 255, 0);
+    position: relative;
+    bottom: 8.5rem;
+    left: 2.7rem;
+}
+.contenedor__paleta .color4{
+    background-color: rgb(255, 7, 164);
+    position: relative;
+    bottom: 4.2rem;
+    left: 4.5rem
+}
+.contenedor__paleta .color5{
+    background-color: rgb(242, 255, 0);
+    position: relative;
+    top: 10rem;
+    right: 15rem;
+}
